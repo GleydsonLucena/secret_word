@@ -165,10 +165,9 @@ const GamePlay = () => {
         <span> {gameState.wrongLetters.join(", ")} </span>
       </p>
 
-      {/* {gameState.flashMessage && (
+      {gameState.flashMessage && (
         <FlashMessage>{gameState.flashMessage}</FlashMessage>
-      )} */}
-      {<FlashMessage>{"Voce so tem mais uma chance"}</FlashMessage>}
+      )}
     </div>
   );
 };
