@@ -1,0 +1,31 @@
+@use './variables'
+
+.letter-container
+  display: flex
+  justify-content: center
+  align-items: center
+  min-height: 9rem
+  min-width: 9rem
+  color: #000
+  border: .2rem solid #000
+  background-color: variables.$white
+  
+
+  div
+    font-size: 7rem
+    font-weight: 900
+    text-transform: uppercase
+
+@media screen and ( max-width: 768px ) 
+  .letter-container
+    min-height: 7rem
+    min-width: 7rem
+
+@media screen and ( max-width: 430px )
+  .letter-container
+    min-height: 4rem
+    min-width: 4rem
+
+@media screen and ( max-width: 375px )
+  
+

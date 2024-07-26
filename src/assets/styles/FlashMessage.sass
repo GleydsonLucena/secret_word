@@ -1,0 +1,57 @@
+@use './variables'
+
+.container-msg
+  position: absolute
+  bottom: 0%
+  left: 40%
+  height: max-content
+  text-align: center
+  border-radius: variables.$border-radius-default
+  padding: 1rem
+  background-color: #a70a02
+
+  animation: openAndClose 500ms forwards
+
+@keyframes openAndClose 
+  0% 
+    opacity: 0
+  
+  100% 
+    opacity: 1
+
+@media screen and ( max-width: 800px ) 
+  .container-msg
+    font-size: 4rem
+    left: 32%
+
+@media screen and ( max-width: 768px ) 
+  .container-msg
+    font-size: 3rem
+    top: 3%
+    left: 30%
+
+@media screen and ( max-width: 428px )
+  .container-msg
+    top: 3%
+    left: 15%
+
+
+@media screen and ( max-width: 390px )
+  .container-msg
+    font-size: 2rem
+    top: 3%
+
+@media screen and ( max-width: 360px )
+  .container-msg
+    top: 2%
+    left: 10%
+
+@media screen and ( max-width: 320px )
+  .container-msg
+    top: 0
+    width: 100%
+    left: 0
+    
+
+
+
