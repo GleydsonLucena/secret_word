@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <GameProvider>
           <Routes>
-            <Route path="/secret_word" element={<Home />} />
+            <Route path="/secret_word/" element={<Home />} />
             <Route path="/secret_word/gameplay" element={<GamePlay />} />
             <Route path="/secret_word/gameover" element={<GameOver />} />
           </Routes>
