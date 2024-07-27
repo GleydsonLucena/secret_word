@@ -164,7 +164,6 @@ const GamePlay = () => {
         Letras já utilizadas:
         <span> {gameState.wrongLetters.join(", ")} </span>
       </p>
-
       {gameState.flashMessage && (
         <FlashMessage>{gameState.flashMessage}</FlashMessage>
       )}
