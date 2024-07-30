@@ -157,6 +157,7 @@ const GamePlay = () => {
           size="4"
           value={gameState.chosenLetter}
           ref={letterInputRef}
+          autoComplete="off"
         />
         <Button onClick={handleOnClick} text="Jogar" width="low" />
       </form>
