@@ -28,7 +28,7 @@
   <img width="100px" src="./public/img/tablet.png"/>
   <img width="200px" src="./public/img/desktop.png"/>
 </div>
-<div style="margin: 3rem auto; ">
+<div style="margin: 6rem auto; ">
   <div>
   <img width="100%" src="./public/gif/desktop.gif"/>
   </div>
